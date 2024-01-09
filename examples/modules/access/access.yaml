@@ -412,13 +412,13 @@ Resources:
       RoleName: !Join
         - ''
         - - !Ref uniqueString
-          - '-lambda-access-role'
+          - '-lambda-service-role'
       Tags:
         - Key: Name
           Value: !Join
             - ''
             - - !Ref uniqueString
-              - '-lambda-access-role'
+              - '-lambda-service-role'
         - Key: application
           Value: !Ref application
         - Key: costcenter
@@ -579,13 +579,13 @@ Resources:
       RoleName: !Join
         - ''
         - - !Ref uniqueString
-          - '-bigip-standard-access-role'
+          - '-bigip-standard-service-role'
       Tags:
         - Key: Name
           Value: !Join
             - ''
             - - !Ref uniqueString
-              - '-bigip-standard-access-role'
+              - '-bigip-standard-service-role'
         - Key: application
           Value: !Ref application
         - Key: costcenter
@@ -679,13 +679,13 @@ Resources:
       RoleName: !Join
         - ''
         - - !Ref uniqueString
-          - '-bigip-secret-access-role'
+          - '-bigip-secret-service-role'
       Tags:
         - Key: Name
           Value: !Join
             - ''
             - - !Ref uniqueString
-              - '-bigip-secret-access-role'
+              - '-bigip-secret-service-role'
         - Key: application
           Value: !Ref application
         - Key: costcenter
@@ -781,13 +781,13 @@ Resources:
       RoleName: !Join
         - ''
         - - !Ref uniqueString
-          - '-bigip-s3-access-role'
+          - '-bigip-s3-service-role'
       Tags:
         - Key: Name
           Value: !Join
             - ''
             - - !Ref uniqueString
-              - '-bigip-s3-access-role'
+              - '-bigip-s3-service-role'
         - Key: application
           Value: !Ref application
         - Key: costcenter
@@ -898,13 +898,13 @@ Resources:
       RoleName: !Join
         - ''
         - - !Ref uniqueString
-          - '-bigip-secret-s3-access-role'
+          - '-bigip-secret-s3-service-role'
       Tags:
         - Key: Name
           Value: !Join
             - ''
             - - !Ref uniqueString
-              - '-bigip-secret-s3-access-role'
+              - '-bigip-secret-s3-service-role'
         - Key: application
           Value: !Ref application
         - Key: costcenter
@@ -1072,13 +1072,13 @@ Resources:
       RoleName: !Join
         - ''
         - - !Ref uniqueString
-          - '-bigip-high-availability-access-role'
+          - '-bigip-high-availability-service-role'
       Tags:
         - Key: Name
           Value: !Join
             - ''
             - - !Ref uniqueString
-              - '-bigip-high-availability-access-role'
+              - '-bigip-high-availability-service-role'
         - Key: application
           Value: !Ref application
         - Key: costcenter
